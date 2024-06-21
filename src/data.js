@@ -1,3 +1,5 @@
+export const logo = "https://t4.ftcdn.net/jpg/04/26/96/71/360_F_426967161_ixbl8OdU9XMpsHTqqsps2HhJI3t0Rwp0.jpg"
+
 export const cars = [
     {
         car: "tesla model 3",
@@ -31,7 +33,7 @@ export const cars = [
     }
 ];
 
-const teslaCars = [
+export const teslaCars = [
     {
         model:"Model 3-2024",
         price:"$49.130",

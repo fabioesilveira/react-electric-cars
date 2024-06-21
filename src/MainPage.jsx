@@ -1,20 +1,23 @@
-import { cars } from "./data";
+import { cars, teslaCars } from "./data";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Electric from '../src/assets/images/eletric.png'
+import Electric2 from '../src/assets/images/eletric-2.png'
 
 function MainPage() {
     return (
         <main>
             <Container>
                 <Row>
-                    {cars.map((element, index) => (
-                        <Col lg={4} md={6} sm={12}>
-                            <h2>{element.car}</h2>
-                            <Button variant="success" onClick={() => alert("hello world")}>Success</Button>{' '}
-                        </Col>
-                    ))}
+
+                    <Col >
+                        <h1 class="h1">Be smart and GoElectric!</h1>
+                        <img class="home-pic" src={Electric}></img>
+                        <img class="home-pic" src={Electric2}></img>
+                    </Col>
+
                 </Row>
             </Container>
         </main>

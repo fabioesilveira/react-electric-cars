@@ -1,14 +1,14 @@
 import './App.css'
 import Footer from './Footer'
-import Header from './Header'
 import MainPage from './MainPage'
+import NavBar from './Navbar'
 
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <NavBar/>
       <MainPage/>
       <Footer/>
 
