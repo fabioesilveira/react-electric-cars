@@ -1,16 +1,20 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Footer from './Footer'
-import MainPage from './MainPage'
-import NavBar from './Navbar'
+import MainPage from './pages/MainPage'
+import Tesla from './pages/Tesla'
+import NotFound from './pages/NotFound'
+
 
 
 function App() {
 
   return (
     <>
-      <NavBar/>
-      <MainPage/>
-      <Footer/>
+      <Routes>
+        <Route index element={<MainPage />}/>
+        <Route path="/tesla" element={<Tesla />}/>
+        <Route path="/*" element={<NotFound />}/>
+      </Routes>
 
     </>
   )
