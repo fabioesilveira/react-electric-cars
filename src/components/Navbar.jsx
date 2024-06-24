@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
     return (
       <>
-        <Navbar bg="bs-warning-border-subtle" data-bs-theme="light">
+        <Navbar  data-bs-theme="light">
           <Container>
             <img src={logo} alt="Bootstrap" width="65" height="50"></img>
             <Navbar.Brand href="#home">GoEletric</Navbar.Brand>
