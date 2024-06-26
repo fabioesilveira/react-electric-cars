@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Tesla() {
     const navigate = useNavigate()
@@ -28,18 +29,19 @@ function Tesla() {
 
                 {teslaCars.map((element, index) => (
                     <div key={index}>
-                        <h2>{element.model}</h2>
-                        <p>{element.paragraph}</p>
-                        <Carousel>
+                        <h2 className="div-h2-tesla">{element.model}</h2>
+
+                        <Carousel className="img-cars-tesla">
                         {element.images.map((e, i) => (
                              <Carousel.Item key={i}>
                              <img
-                               className="d-block w-100"
+                               className="d-block w-100 img-cars-tesla"
                                src={e}
                                alt="First slide"
                              />
-                            
+                            <p>{element.paragraph}</p>
                            </Carousel.Item>
+                           
                         ))}
                         </Carousel>
 
@@ -47,6 +49,8 @@ function Tesla() {
                     </div>
                 ))}
             </Container>
+
+            <Footer />
         </div>
     )
 };

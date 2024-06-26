@@ -8,6 +8,7 @@ import Electric2 from '../../src/assets/images/eletric-2.png'
 import { Navbar } from "react-bootstrap";
 import NavBar from "../components/Navbar";
 import '../App.css'
+import Footer from "../components/Footer";
 
 function MainPage() {
     return (
@@ -24,6 +25,7 @@ function MainPage() {
 
                 </Row>
             </Container>
+            <Footer />
         </main>
     )
 };
