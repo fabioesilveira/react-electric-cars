@@ -7,17 +7,17 @@ import Electric from '../../src/assets/images/eletric.png'
 import Electric2 from '../../src/assets/images/eletric-2.png'
 import { Navbar } from "react-bootstrap";
 import NavBar from "../components/Navbar";
+import '../App.css'
 
 function MainPage() {
     return (
         <main>
            <NavBar />
-            
+           <h1 className="title-h1">Be smart and GoElectric!</h1>
             <Container>
                 <Row>
 
                     <Col >
-                        <h1 class="h1">Be smart and GoElectric!</h1>
                         <img class="home-pic" src={Electric}></img>
                         <img class="home-pic" src={Electric2}></img>
                     </Col>

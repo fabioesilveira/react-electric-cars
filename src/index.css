@@ -2,21 +2,17 @@
   width: 1300px;
 }
 
-.h1{
-    font-family: "Monoton", sans-serif;
-    font-weight: 400;
-    color: brown;
-    font-style: normal;
-    
-  }
-
   .img-tesla1{
     width: 100%;
-    height: 790px;
+    height: 720px;
+    margin-top: -20px;
   }
 
   .img-tesla2{
     width: 300px;
-    
-    margin-right: 300px;
+    margin-top: -50px
+  }
+
+  .navbar {
+    margin-right: 380px;
   }
