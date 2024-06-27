@@ -63,6 +63,20 @@ export const teslaCars = [
         range: "335 miles",
         paragraph: "A stark and nearly buttonless interior design is classic Tesla. The driver faces a digital gauge display and a unique yoke-style steering controller, which is often frustrating to use and difficult if not impossible to get used to. At least a regular steering wheel is available as a no-cost option.Among other similarly sized electric SUVs, the Model X Long Range boasts the highest MPGe ratings from the EPA. That model has ratings of 107 city, 97 highway, and 102 MPGe combined.",
         images: ["https://hips.hearstapps.com/hmg-prod/images/2020-tesla-model-x-101-656e382168a37.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2020-tesla-model-x-109-656e3821a0e49.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2020-tesla-model-x-117-656e3822b0ec0.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2020-tesla-model-x-114-656e37ef76212.jpg?crop=1xw:1xh;center,top&resize=980:*"]
+   },
+   {
+    model: "CYBERTRUCK 2024",
+    price: "$101.985",
+    range: '340 miles',
+    paragraph: "The 600-hp Dual Motor Cybertruck will reportedly reach 60 mph in just 3.9 ticks and have a top speed of 112 mph. On the road, the big Cybertruck feels more agile than expected. We drove a Founders Edition Beast model and found its combination of rear-wheel steering and variable ratio steer-by-wire system made for easier maneuvering in urban environments than a typical pickup truck.",
+    images: ["https://hips.hearstapps.com/hmg-prod/images/2024-tesla-cybertruck-102-65e894591b71d.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-tesla-cybertruck-beast-1105-6632475b014db.jpeg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-tesla-cybertruck-107-65e8945c693e2.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-tesla-cybertruck-115-662a6d20c035b.jpg?crop=1xw:1xh;center,top&resize=980:*"]
+   },
+   {
+    model: "ROADSTER 2026",
+    price: "$200.000",
+    range: "620 miles",
+    paragraph: "For now, the Roadster is merely a concept, and in general, concepts change drastically during their development into production models. As shown, the Roadster concept features a removable glass panel roof, which you can stow in the trunk. It has four seats, but the rear ones look as though they may not fit adults, given the Roadster's dramatically angled roofline. Other than that, we expect to see Tesla's signature minimalist interior design repeated here.",
+    images: ["https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-108.jpg?resize=980:*", "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-105.jpg?resize=980:*", "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-104.jpg?resize=980:*", "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/11/Tesla-Roadster-111.jpg?resize=980:*"]
    }
 
 ];
