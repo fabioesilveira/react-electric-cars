@@ -83,24 +83,18 @@ export const teslaCars = [
 
 export const lucidCars = [
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images:[""]
+        model: "AIR 2024",
+        price: "$79.400",
+        range: "425 miles",
+        paragraph: "Make no mistake, the Air is intended to be a luxury car, and its handsome interior is fitted with rich-looking materials and cutting-edge technology. Lucid is especially proud of the sedan's expansive passenger space, which is highlighted by a large back seat. The Air has the longest range of any electric vehicle currently on the market, according to EPA estimates.",
+        images:["https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-117-64cd3bf322c9a.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-121-64cd3bf3e715b.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-101-64cd3beb350a6.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-116-64cd3bf322621.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images:[""]
+        model: "GRAVITY",
+        price: "$130.000",
+        range: "516 miles",
+        paragraph: "Lucid is no stranger to luxury, and the Gravity builds on that reputation nicely with a spacious cabin that's decked out in fancy, stylish-looking materials. The Gravity SUV comes with dual electric motors and standard all-wheel drive; a rear-wheel-drive base model could join the lineup later on.",
+        images:["https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-102-655634dba544a.jpg?crop=1.00xw:0.842xh;0,0.0930xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-interior-111-6556352e3f4c6.jpg?crop=1.00xw:0.753xh;0,0.0991xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-107-655634dddf17a.jpg?crop=1.00xw:0.845xh;0,0.155xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-112-655634de77aa9.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=980:*"]
     },
-    {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images:[""]
-    }
+   
 ]
