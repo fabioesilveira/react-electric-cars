@@ -24,12 +24,12 @@ function Tesla() {
                 <img class="img-tesla2" src={Tesla2}></img>
                 <img class="img-tesla1" src={Tesla1}></img>
 
-                <h2 className="tesla-h2">CHECK THE CARS OUT</h2>
+                <h2 className="chekout-cars-h2">CHECK THE CARS OUT</h2>
 
                 {teslaCars.map((element, index) => (
                     <div key={index}>
-                        <h2 className="div-h2-tesla">{element.model}</h2>
-                        <h4 className="div-h4-tesla">PRICE {element.price} / RANGE {element.range}</h4>
+                        <h2 className="div-h2-cars">{element.model}</h2>
+                        <h4 className="div-h4-cars">PRICE {element.price} / RANGE {element.range}</h4>
 
                         <Carousel className="img-cars-tesla">
                             {element.images.map((e, i) => (

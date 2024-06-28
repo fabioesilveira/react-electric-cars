@@ -27,7 +27,7 @@
   width: 50%;
 }
 
-.div-h2-tesla {
+.div-h2-cars {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   display: flex;
@@ -38,7 +38,7 @@
   margin-bottom: 20px;
 }
 
-.tesla-h2 {
+.chekout-cars-h2 {
   font-family: "Orbitron", sans-serif;
   font-size: 50px;
   display: flex;
@@ -47,7 +47,7 @@
   margin-top: 40px;
 }
 
-.div-h4-tesla{
+.div-h4-cars{
   font-family: "Orbitron", sans-serif;
   display: flex;
   justify-content: center;
@@ -72,4 +72,13 @@
 
 .lucid-img-2 {
 width: 100%;
+}
+
+.lucid-images-carousel{
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
 }

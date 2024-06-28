@@ -90,7 +90,7 @@ export const lucidCars = [
         images:["https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-117-64cd3bf322c9a.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-121-64cd3bf3e715b.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-101-64cd3beb350a6.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-116-64cd3bf322621.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "GRAVITY",
+        model: "GRAVITY 2025",
         price: "$130.000",
         range: "516 miles",
         paragraph: "Lucid is no stranger to luxury, and the Gravity builds on that reputation nicely with a spacious cabin that's decked out in fancy, stylish-looking materials. The Gravity SUV comes with dual electric motors and standard all-wheel drive; a rear-wheel-drive base model could join the lineup later on.",
