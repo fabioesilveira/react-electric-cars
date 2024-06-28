@@ -80,3 +80,27 @@ export const teslaCars = [
    }
 
 ];
+
+export const lucidCars = [
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images:[""]
+    },
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images:[""]
+    },
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images:[""]
+    }
+]

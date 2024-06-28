@@ -3,6 +3,7 @@ import './App.css'
 import MainPage from './pages/MainPage'
 import Tesla from './pages/Tesla'
 import NotFound from './pages/NotFound'
+import Lucid from './pages/Lucid'
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route index element={<MainPage />}/>
         <Route path="/tesla" element={<Tesla />}/>
+        <Route path="/lucid" element={<Lucid />}/>
         <Route path="/*" element={<NotFound />}/>
       </Routes>
 

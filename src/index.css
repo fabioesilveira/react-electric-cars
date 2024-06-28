@@ -52,3 +52,24 @@
   display: flex;
   justify-content: center;
 }
+
+.card-paragraph{
+  height: 30px;
+}
+
+.tesla-btn-youtube{
+  margin-left: 40%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.lucid-img-1 {
+  width: 310px;
+  height: 220px;
+  margin-bottom: -55px;
+  margin-top: -55px;
+}
+
+.lucid-img-2 {
+width: 100%;
+}
