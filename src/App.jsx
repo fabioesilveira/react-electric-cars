@@ -4,6 +4,7 @@ import MainPage from './pages/MainPage'
 import Tesla from './pages/Tesla'
 import NotFound from './pages/NotFound'
 import Lucid from './pages/Lucid'
+import Rivian from './pages/Rivian'
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<MainPage />}/>
         <Route path="/tesla" element={<Tesla />}/>
         <Route path="/lucid" element={<Lucid />}/>
+        <Route path="/rivian" element={<Rivian />}/>
         <Route path="/*" element={<NotFound />}/>
       </Routes>
 
