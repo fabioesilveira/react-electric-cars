@@ -103,4 +103,35 @@ export const lucidCars = [
         images:["https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-102-655634dba544a.jpg?crop=1.00xw:0.842xh;0,0.0930xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-interior-111-6556352e3f4c6.jpg?crop=1.00xw:0.753xh;0,0.0991xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-107-655634dddf17a.jpg?crop=1.00xw:0.845xh;0,0.155xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-112-655634de77aa9.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=980:*"]
     },
    
+];
+
+export const rivianCars = [
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images: [""]
+    },
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images: [""]
+    },
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images: [""]
+    },
+    {
+        model: "",
+        price: "",
+        range: "",
+        paragraph: "",
+        images: [""]
+    },
 ]
