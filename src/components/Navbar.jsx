@@ -17,7 +17,7 @@ function NavBar() {
             <Nav className="me-auto">
               <Nav.Link as={NavLink} to="/">HOME</Nav.Link>
               <Nav.Link as={NavLink} to="/tesla">TESLA</Nav.Link>
-              <Nav.Link href="#pricing">LUCID</Nav.Link>
+              <Nav.Link as={NavLink} to="/lucid">LUCID</Nav.Link>
               <Nav.Link href="#pricing">RIVIAN</Nav.Link>
               <Nav.Link href="#pricing">LUXURY CARS</Nav.Link>
               <Nav.Link href="#pricing">ECONOMY CARS</Nav.Link>
