@@ -18,6 +18,13 @@ function Rivian() {
 
                 <h2 className="chekout-cars-h2">CHECK THE CARS OUT</h2>
 
+                {rivianCars.map((element, index) => (
+                    <div key={index}>
+                        <h2 className="div-h2-cars">{element.model}</h2>
+                        <h4 className="div-h4-cars">PRICE {element.price} / RANGE {element.range}</h4>
+                    </div>
+                ))}
+
             </Container>
             <Footer />
         </div>

@@ -107,31 +107,31 @@ export const lucidCars = [
 
 export const rivianCars = [
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images: [""]
+        model: "R1S 2025",
+        price: "$77.700",
+        range: "270 miles",
+        paragraph: "The R1S continues to offer a beautifully designed cabin with contemporary styling, fancy leather, wood trim, and two large displays—one for infotainment and one for the driver's gauge display. Rivian is projecting the new quad motor setup on the 2025 R1T pickup to be good for a sub-2.5-second 60-mph run",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1s-106-665f7d86f3f50.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1s-115-665f7d8d51e8f.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1s-129-665f7d932d3d9.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1s-113-665f7d8d81d10.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images: [""]
+        model: "R1T 2025",
+        price: "$71.700",
+        range: "258 miles",
+        paragraph: "The R1T powertrain portfolio offers three distinct configurations with a Performance tune for the base two-motor setup; all-wheel-wheel drive is standard across the board. The R1T doesn’t stray too far from the pickup rulebook, utilizing leather, wood, and large displays for both the gauge cluster and the infotainment system.",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1t-105-665f78ba81fdb.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1t-121-665f78c288f6a.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1t-102-665f78bcf3154.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-rivian-r1t-101-665f78bc37347.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images: [""]
+        model: "R2 2026",
+        price: "$45.000",
+        range: "300 miles",
+        paragraph: "Now that its R1S and R1T models are making a splash on American roads, Rivian is turning its sights on a new SUV called R2, which is smaller and cheaper to maximize its appeal. The R2 is sized similarly to compact crossovers such as the BMW X3 and the Hyundai Tucson, but its $45,000 starting price and electric powertrain put it in the same segment as the Ford Mustang Mach E and the Tesla Model Y.",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/12-rivian-r2-65ea135495548.jpg?crop=1.00xw:0.847xh;0,0.153xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/11-rivian-r2-65ea135c4ead7.jpg?crop=1xw:0.843328335832084xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/05-accessories-65ea13646b0de.jpg?crop=1.00xw:0.847xh;0,0.122xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/rivian-r2-interior-hero-copy-65ea13ca5d23f.jpg?crop=1.00xw:0.968xh;0,0.0321xh&resize=980:*"]
     },
     {
-        model: "",
-        price: "",
-        range: "",
-        paragraph: "",
-        images: [""]
+        model: "R3 2027",
+        price: "$37.000",
+        range: "300 miles",
+        paragraph: "EV maker Rivian's smallest SUV yet will be the 2027 R3, which takes the shape of a tall hatchback with meaty tires and some ground clearance. The R3 and R3X models will be new additions to the Rivian lineup. We expect to see production start sometime in late 2026 or early 2027.",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/10-rivian-r3-65ea148745a44.jpg?crop=1xw:0.843328335832084xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/11-rivian-r3-65ea14813906b.jpg?crop=1.00xw:0.847xh;0,0.0306xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/r3-interior-65ea146f52861.jpg?crop=1xw:0.843328335832084xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/01-rivian-r3x-65ea14ae2d8cc.jpg?crop=1.00xw:0.847xh;0,0.105xh&resize=980:*"]
     },
 ]
