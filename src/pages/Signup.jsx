@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 function Signup() {
-    const [userName, setUserName] = useState("Fabio");
+    const [userName, setUserName] = useState("");
     const [userEmail, setUserEmail] = useState("");
     const [userPassword, setUserPassword] = useState("");
 
@@ -24,6 +24,12 @@ function Signup() {
         if (!isValidPassword(userPassword)) {
             return alert ("Please you password must container 8 digits a special character a uppercase letter and numbers")
         }
+
+        localStorage.setItem("user", JSON.stringify({
+            user: userName,
+            email: userEmail,
+            password: userPassword
+        }))
     }
 
     return (

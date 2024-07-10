@@ -1,4 +1,4 @@
-import { cars, teslaCars } from "../data";
+import { cars, teslaCars } from "../data/data";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

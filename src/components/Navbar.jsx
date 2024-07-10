@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { logo } from '../data';
+import { logo } from '../data/data';
 import { NavLink } from 'react-router-dom';
 
 
