@@ -134,4 +134,51 @@ export const rivianCars = [
         paragraph: "EV maker Rivian's smallest SUV yet will be the 2027 R3, which takes the shape of a tall hatchback with meaty tires and some ground clearance. The R3 and R3X models will be new additions to the Rivian lineup. We expect to see production start sometime in late 2026 or early 2027.",
         images: ["https://hips.hearstapps.com/hmg-prod/images/10-rivian-r3-65ea148745a44.jpg?crop=1xw:0.843328335832084xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/11-rivian-r3-65ea14813906b.jpg?crop=1.00xw:0.847xh;0,0.0306xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/r3-interior-65ea146f52861.jpg?crop=1xw:0.843328335832084xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/01-rivian-r3x-65ea14ae2d8cc.jpg?crop=1.00xw:0.847xh;0,0.105xh&resize=980:*"]
     },
+];
+
+export const luxuryCars = [
+    {
+        make: "GENESIS",
+        model: "GV60 2024"
+    },
+    {
+        make: "FORD",
+        model: "MUSTANG MATCH-E 2024"
+    },
+    {
+        make: "PORSCHE",
+        model: "TAYCAN 2025"
+    },
+    {
+        make: "AUDI",
+        model: "Q8 E-TRON 2024"
+    },
+    {
+        make: "GMC",
+        model: "HUMMER EV-PICKUP",
+    },
+    {
+        make:"BMW",
+        model:"i7 2023"
+    },
+    {
+        make: "CADILLAC",
+        model:"LYRIQ 2024"
+    },
+    {
+        make: "MERCEDES",
+        model: "EQS 450 4MATIC"
+    },
+    {
+        make: "MASERATI",
+        model: "GranCabrio FOLGORE"
+    },
+    {
+        make: "VOLVO",
+        model: "EX90"
+    },
+    {
+        make: "JEEP",
+        model: "WAGOONER S 2024"
+    }
 ]
