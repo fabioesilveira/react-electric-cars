@@ -138,47 +138,45 @@ export const rivianCars = [
 
 export const luxuryCars = [
     {
-        make: "GENESIS",
-        model: "GV60 2024"
+        model: "GENESIS GV60",
+        price: "61.900",
+        range: "235 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-genesis-gv60-181-1657247820.jpg?crop=1xw:1xh;center,top&resize=980:*","https://hips.hearstapps.com/hmg-prod/images/2023-genesis-gv60-142-1657247820.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-genesis-gv60-105-1657247820.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-genesis-gv60-976-1657247834.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-genesis-gv60-193-1657247820.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        make: "FORD",
-        model: "MUSTANG MATCH-E 2024"
+        model: "FORD MUSTANG MATCH-E",
+        price: "55.890",
+        range: "250 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-mach-e-rally-2-64f8805a9ed2d.jpg?crop=0.718xw:0.605xh;0.136xw,0.306xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-mach-e-rally-5-64f8805ba6e5a.jpg?crop=0.770xw:0.651xh;0.100xw,0.255xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-mach-e-rally-7-64f880598802d.jpg?crop=0.687xw:0.579xh;0.128xw,0.311xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-mach-e-rally-23-64f880608785c.jpg?crop=1.00xw:0.847xh;0,0.0689xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-ford-mustang-mach-e-rally-21-64f8805ed3b6b.jpg?crop=1.00xw:0.847xh;0,0.153xh&resize=980:*"]
     },
     {
-        make: "PORSCHE",
-        model: "TAYCAN 2025"
+        model: "PORSCHE TAYCAN",
+        price: "$120,495",
+        range: "246 miles",
+        images: []
     },
     {
-        make: "AUDI",
-        model: "Q8 E-TRON 2024"
+        model: "AUDI Q8 E-TRON"
     },
     {
-        make: "GMC",
-        model: "HUMMER EV-PICKUP",
+        model: "GMC HUMMER EV-PICKUP",
     },
     {
-        make:"BMW",
-        model:"i7 2023"
+        model:"BMW i7"
     },
     {
-        make: "CADILLAC",
-        model:"LYRIQ 2024"
+        model:"CADILLAC LYRIQ"
     },
     {
-        make: "MERCEDES",
-        model: "EQS 450 4MATIC"
+        model: "MERCEDES EQS 450 4MATIC"
     },
     {
-        make: "MASERATI",
-        model: "GranCabrio FOLGORE"
+        model: "MASERATI GranCabrio FOLGORE"
     },
     {
-        make: "VOLVO",
-        model: "EX90"
+        model: "VOLVO EX90"
     },
     {
-        make: "JEEP",
-        model: "WAGOONER S 2024"
+        model: "JEEP WAGOONER S"
     }
 ]
