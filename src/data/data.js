@@ -153,7 +153,7 @@ export const luxuryCars = [
         model: "PORSCHE TAYCAN",
         price: "$120,495",
         range: "246 miles",
-        images: []
+        images: [] 
     },
     {
         model: "AUDI Q8 E-TRON"

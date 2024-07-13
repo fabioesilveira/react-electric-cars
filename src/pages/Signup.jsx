@@ -4,9 +4,23 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 function Signup() {
-    const [userName, setUserName] = useState("");
-    const [userEmail, setUserEmail] = useState("");
-    const [userPassword, setUserPassword] = useState("");
+
+    const [form, setForm] = useState({
+        userName: "",
+        userEmail: "",
+        userPassword: ""
+    });
+
+    function handleChange({ target }) {
+
+        const { name, value } = target;
+
+        setForm({
+            ...form,
+            [name]: value
+        })
+        console.log(value, name)
+    }
 
     function handleClick(event) {
         event.preventDefault();
@@ -17,19 +31,15 @@ function Signup() {
         const isValidEmail = (email) => emailRegex.test(email);
         const isValidPassword = (password) => passwordRegex.test(password);
 
-        if (!isValidEmail(userEmail)) {
-            return alert ("Please enter a valid email!!")
+        if (!isValidEmail(form.userEmail)) {
+            return alert("Please enter a valid email!!")
         }
 
-        if (!isValidPassword(userPassword)) {
-            return alert ("Please you password must container 8 digits a special character a uppercase letter and numbers")
+        if (!isValidPassword(form.userPassword)) {
+            return alert("Please you password must container 8 digits a special character a uppercase letter and numbers")
         }
 
-        localStorage.setItem("user", JSON.stringify({
-            user: userName,
-            email: userEmail,
-            password: userPassword
-        }))
+        localStorage.setItem("user", JSON.stringify(form))
     }
 
     return (
@@ -41,16 +51,18 @@ function Signup() {
                         <Form.Control
                             type="text"
                             placeholder="Enter name"
-                            value={userName}
-                            onChange={({ target }) => setUserName(target.value)} />
+                            name="userName"
+                            value={form.userName}
+                            onChange={handleChange} />
                     </Form.Group>
                     <Form.Group className="mb-3" >
                         <Form.Label>Email address</Form.Label>
                         <Form.Control
                             type="email"
                             placeholder="Enter email"
-                            value={userEmail}
-                            onChange={({ target }) => setUserEmail(target.value)} />
+                            name="userEmail"
+                            value={form.userEmail}
+                            onChange={handleChange} />
                     </Form.Group>
 
                     <Form.Group className="mb-3" >
@@ -58,8 +70,9 @@ function Signup() {
                         <Form.Control
                             type="password"
                             placeholder="Password"
-                            value={userPassword}
-                            onChange={({ target }) => setUserPassword(target.value)} />
+                            name="userPassword"
+                            value={form.userPassword}
+                            onChange={handleChange} />
                     </Form.Group>
 
                     <Button
