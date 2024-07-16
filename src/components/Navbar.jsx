@@ -34,6 +34,9 @@ function NavBar() {
             <NavDropdown.Item href="#action/3.4">
               Signout
             </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.5">
+              Contact us
+            </NavDropdown.Item>
           </NavDropdown>
 
         </Container>
