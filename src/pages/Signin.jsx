@@ -11,8 +11,10 @@ function Signin() {
     function handleClick(event) {
         event.preventDefault();
 
-        const localStorageUser = JSON.parse(localStorage.getItem("user"))
-        alert(localStorageUser.user)
+        
+
+        // const localStorageUser = JSON.parse(localStorage.getItem("user"))
+        // alert(localStorageUser.user)
     }
     return (
         <>
