@@ -1,21 +1,43 @@
+import axios from 'axios';
 import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function Signin() {
-    const [userName, setUserName] = useState("");
-    const [userEmail, setUserEmail] = useState("");
-    const [userPassword, setUserPassword] = useState("");
 
-    function handleClick(event) {
+function Signin() {
+    // const [userName, setUserName] = useState("");
+    // const [userEmail, setUserEmail] = useState("");
+    // const [userPassword, setUserPassword] = useState("");
+
+    const [form, setForm] = useState({
+        email: "",
+        password: ""
+    })
+
+    function handleChange({ target }) {
+        
+        const { name, value } = target;
+
+        setForm({
+            ...form,
+            [name]: value
+        })
+    }
+
+
+    async function handleClick(event) {
         event.preventDefault();
 
-        
-
-        // const localStorageUser = JSON.parse(localStorage.getItem("user"))
-        // alert(localStorageUser.user)
+        try {
+            const response = await axios.post("http://localhost:3000/users/login", form)
+            console.log(response.data)
+            return alert(response.data.message)
+           } catch (error) {
+            console.error("error to post: ", error)
+           }
     }
+
     return (
         <>
             <Container>
@@ -25,8 +47,9 @@ function Signin() {
                         <Form.Control
                             type="email"
                             placeholder="Enter email"
-                            value={userEmail}
-                            onChange={({ target }) => setUserEmail(target.value)} />
+                            name="email"
+                            value={form.email}
+                            onChange={handleChange} />
                     </Form.Group>
 
                     <Form.Group className="mb-3" >
@@ -34,8 +57,9 @@ function Signin() {
                         <Form.Control
                             type="password"
                             placeholder="Password"
-                            value={userPassword}
-                            onChange={({ target }) => setUserPassword(target.value)} />
+                            name="password"
+                            value={form.password}
+                            onChange={handleChange} />
                     </Form.Group>
 
                     <Button

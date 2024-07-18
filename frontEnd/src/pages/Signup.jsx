@@ -2,13 +2,14 @@ import { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import axios from 'axios'
 
 function Signup() {
 
     const [form, setForm] = useState({
-        userName: "",
-        userEmail: "",
-        userPassword: ""
+        name: "",
+        email: "",
+        password: ""
     });
 
     function handleChange({ target }) {
@@ -22,7 +23,7 @@ function Signup() {
         console.log(value, name)
     }
 
-    function handleClick(event) {
+    async function handleClick(event) {
         event.preventDefault();
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -31,15 +32,21 @@ function Signup() {
         const isValidEmail = (email) => emailRegex.test(email);
         const isValidPassword = (password) => passwordRegex.test(password);
 
-        if (!isValidEmail(form.userEmail)) {
+        if (!isValidEmail(form.email)) {
             return alert("Please enter a valid email!!")
         }
 
-        if (!isValidPassword(form.userPassword)) {
+        if (!isValidPassword(form.password)) {
             return alert("Please you password must container 8 digits a special character a uppercase letter and numbers")
         }
 
-        localStorage.setItem("user", JSON.stringify(form))
+       try {
+        const response = await axios.post("http://localhost:3000/users", form)
+        console.log(response.data)
+        return alert(response.data.message)
+       } catch (error) {
+        console.error("error to post: ", error)
+       }
     }
 
     return (
@@ -51,8 +58,8 @@ function Signup() {
                         <Form.Control
                             type="text"
                             placeholder="Enter name"
-                            name="userName"
-                            value={form.userName}
+                            name="name"
+                            value={form.name}
                             onChange={handleChange} />
                     </Form.Group>
                     <Form.Group className="mb-3" >
@@ -60,8 +67,8 @@ function Signup() {
                         <Form.Control
                             type="email"
                             placeholder="Enter email"
-                            name="userEmail"
-                            value={form.userEmail}
+                            name="email"
+                            value={form.email}
                             onChange={handleChange} />
                     </Form.Group>
 
@@ -70,8 +77,8 @@ function Signup() {
                         <Form.Control
                             type="password"
                             placeholder="Password"
-                            name="userPassword"
-                            value={form.userPassword}
+                            name="password"
+                            value={form.password}
                             onChange={handleChange} />
                     </Form.Group>
 
