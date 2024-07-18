@@ -153,19 +153,31 @@ export const luxuryCars = [
         model: "PORSCHE TAYCAN",
         price: "$120,495",
         range: "246 miles",
-        images: [] 
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2025-porsche-taycan-103-660b0446c57f6.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-porsche-taycan-102-660b044633b0c.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-porsche-taycan-108-660b04426b9b4.jpg?crop=1.00xw:0.446xh;0,0.280xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-porsche-taycan-114-660b044858aaf.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-porsche-taycan-115-660b04487c091.jpg?crop=1xw:1xh;center,top&resize=980:*"] 
     },
     {
-        model: "AUDI Q8 E-TRON"
+        model: "AUDI Q8 E-TRON",
+        price: "$78,995",
+        range: "300 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-402-64b97355b2365.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-476-64b97378af0a6.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-430-64b973663138e.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-387-64b97354d78ca.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-450-64b9737496542.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
         model: "GMC HUMMER EV-PICKUP",
+        price: "$98,845",
+        range: "314 miles", 
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2022-gmc-hummer-ev-edition-1-pickup-102-1657891648.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-gmc-hummer-ev-edition-1-pickup-108-1657891649.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-gmc-hummer-ev-edition-1-pickup-114-1657891653.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-gmc-hummer-ev-edition-1-pickup-129-1657891664.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-gmc-hummer-ev-edition-1-pickup-140-1657891672.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model:"BMW i7"
+        model: "BMW i7",
+        price: "$106,695",
+        range: "318 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-bmw-i7-m70-103-643d69e0e4d33.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-i7-m70-108-643d69e2855f7.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-i7-m70-113-643d69e4a7721.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-i7-m70-105-643d69e1016dc.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-i7-m70-17-6439b6022e8fd.jpeg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model:"CADILLAC LYRIQ"
+        model:"CADILLAC LYRIQ",
+        price: "$58,590",
+        range: "308 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-114-6463cff7e7fc1.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-103-6463cff2277d1.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-120-6463cffbe1517.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-122-6463cffcc9b71.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-121-6463cffc1719f.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
         model: "MERCEDES EQS 450 4MATIC"
