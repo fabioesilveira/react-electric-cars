@@ -8,6 +8,7 @@ import Rivian from './pages/Rivian'
 import Signup from './pages/Signup'
 import Signin from './pages/Signin'
 import Contact from './components/Contact'
+import LuxuryCars from './pages/LuxuryCars'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/tesla" element={<Tesla />}/>
         <Route path="/lucid" element={<Lucid />}/>
         <Route path="/rivian" element={<Rivian />}/>
+        <Route path="/luxurycars" element={<LuxuryCars />}/>
         <Route path="/*" element={<NotFound />}/>
       </Routes>
 
