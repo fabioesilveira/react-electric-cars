@@ -180,15 +180,35 @@ export const luxuryCars = [
         images: ["https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-114-6463cff7e7fc1.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-103-6463cff2277d1.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-120-6463cffbe1517.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-122-6463cffcc9b71.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-cadillac-lyriq-luxury-awd-121-6463cffc1719f.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "MERCEDES EQS 450 4MATIC"
+        model: "MERCEDES EQS 450 4MATIC",
+        price: "$105,550",
+        range: "390 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2025-mercedes-benz-eqs-exterior-101-6616b9b1bd904.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-mercedes-benz-eqs-exterior-103-6616b9b21f684.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-mercedes-benz-eqs-exterior-106-6616b9b02d320.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2025-mercedes-benz-eqs-interior-102-6616b9b471261.jpg?crop=1xw:1xh;center,top&resize=980:*"]
+
     },
     {
-        model: "MASERATI GranCabrio FOLGORE"
+        model: "MASERATI GranCabrio FOLGORE",
+        price: "$206,995",
+        range: "233 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-maserati-grancabrio-folgore-119-667af1e0f20b3.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-maserati-grancabrio-folgore-120-667af1e1bc2c0.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-maserati-grancabrio-trofeo-125-667af241715c6.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-maserati-grancabrio-trofeo-113-667af23e99f1a.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "VOLVO EX90"
+        model: "VOLVO EX90",
+        price: "$81,290",
+        range: "300 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-volvo-ex90-104-1667925360.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-volvo-ex90-101-1667925360.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-volvo-ex90-102-1667925360.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-volvo-ex90-119-1667925367.jpg?crop=1xw:1xh;center,top&resize=980:*"] 
+
     },
     {
-        model: "JEEP WAGOONER S"
+        model: "JEEP WAGOONER S",
+        price: "$71,995",
+        range: "300 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-jeep-wagoneer-s-first-edition-exterior-104-6655ec06588aa.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-jeep-wagoneer-s-first-edition-exterior-105-6655ec0187ea1.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-jeep-wagoneer-s-first-edition-exterior-118-6655ec09e39b7.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-jeep-wagoneer-s-first-edition-exterior-115-6655ec0bf0dd3.jpg?crop=1xw:1xh;center,top&resize=980:*"]
+    },
+    {
+        model: "Jaguar I-PACE",
+        price: "$73,375", 
+        range: "246 miles", 
+        images: [""]
     }
 ]
