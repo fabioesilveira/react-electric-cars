@@ -81,9 +81,10 @@ function Signup() {
             <Card className="text-center">
                 <Card.Header></Card.Header></Card>
 
-<h2>Signup to have acess to GoEletric page</h2>
+
 
             <Container>
+                <h2 className="h2-signup-page">Please, register your account to have acess to GoElectric!</h2>
                 <Card className="card-signup-page">
                     <Container>
                         <Form className="form-signup-page">

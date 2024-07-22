@@ -108,7 +108,7 @@ display: none;
 }
 
 .card-launch-page {
-  margin-top: 210px;
+  margin-top: 100px;
   margin-bottom: 240px;
 }
 
@@ -120,8 +120,8 @@ display: none;
 }
 
 .card-signup-page{
-  margin-top: 180px;
-  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-bottom: 170px;
 }
 
 .form-signup-page {
@@ -129,4 +129,31 @@ display: none;
   margin-bottom: 30px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.h2-signup-page{
+
+  font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  margin-top: 70px;
+  font-size: 32px;
+  font-style: normal;
+  color: green;
+  text-align: center;
+  animation: eletric 5s infinite;
+}
+
+.h2-signin-page{
+  font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  margin-top: 70px;
+  font-size: 32px;
+  font-style: normal;
+  color: green;
+  text-align: center;
+  animation: eletric 5s infinite;
+}
+
+.nav-my-account{
+  margin-right: 40px;
 }

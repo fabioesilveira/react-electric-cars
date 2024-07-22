@@ -11,8 +11,8 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <>
-      <Navbar className="navbar" data-bs-theme="light">
-        <Container>
+      <Navbar className="navbar nav-my-account" data-bs-theme="light">
+        
           <img src={logo} alt="Bootstrap" width="65" height="50"></img>
           <Navbar.Brand as={NavLink} to="/">GoEletric</Navbar.Brand>
           <Nav className="me-auto">
@@ -27,10 +27,9 @@ function NavBar() {
        
           
 
-          <NavDropdown title="MyAccount" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
+          <NavDropdown className="nav-my-account" title="MyAccount" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
-              Signin
+              Saved Cars
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
@@ -41,7 +40,7 @@ function NavBar() {
             </NavDropdown.Item>
           </NavDropdown>
 
-        </Container>
+        
       </Navbar>
 
       <Card className="text-center">

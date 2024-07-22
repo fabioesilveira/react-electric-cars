@@ -70,6 +70,7 @@ function LaunchPage() {
             <div>
 
                 <Container>
+                <h2 className="h2-signin-page">Welcome  to GoElectric, signin with your registered account.</h2>
                     <Card className="card-launch-page">
                         <Container>
                             <Form className="form-launch-page">
