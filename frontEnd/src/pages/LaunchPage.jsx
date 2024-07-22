@@ -53,7 +53,7 @@ function LaunchPage() {
                         <Nav.Link as={NavLink} to="/launchpage" >SIGNIN</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={NavLink} to="/signup" eventKey="link-1">REGISTER</Nav.Link>
+                        <Nav.Link as={NavLink} to="/signup" eventKey="link-1">SIGNUP</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="disabled" disabled>

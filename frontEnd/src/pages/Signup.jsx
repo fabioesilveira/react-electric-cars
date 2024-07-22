@@ -67,7 +67,7 @@ function Signup() {
                         <Nav.Link as={NavLink} to="/launchpage" >SIGNIN</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={NavLink} to="/signup" eventKey="link-1">REGISTER</Nav.Link>
+                        <Nav.Link as={NavLink} to="/signup" eventKey="link-1">SIGNUP</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link eventKey="disabled" disabled>
@@ -81,10 +81,12 @@ function Signup() {
             <Card className="text-center">
                 <Card.Header></Card.Header></Card>
 
+<h2>Signup to have acess to GoEletric page</h2>
+
             <Container>
-                <Card>
+                <Card className="card-signup-page">
                     <Container>
-                        <Form>
+                        <Form className="form-signup-page">
                             <Form.Group>
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control
