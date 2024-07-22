@@ -23,6 +23,8 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/luxurycars">LUXURY CARS</Nav.Link>
             <Nav.Link href="#pricing">ECONOMY CARS</Nav.Link>
           </Nav>
+
+       
           
 
           <NavDropdown title="MyAccount" id="basic-nav-dropdown">
