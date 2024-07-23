@@ -32,11 +32,11 @@ function NavBar() {
               Saved Cars
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Signout
+            <NavDropdown.Item as={NavLink} to="/contact">
+            Contact us
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.5">
-              Contact us
+            Signout
             </NavDropdown.Item>
           </NavDropdown>
 

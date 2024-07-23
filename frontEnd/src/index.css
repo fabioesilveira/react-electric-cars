@@ -99,12 +99,25 @@ display: none;
   height: 720px;
 }
 
+.contact-form-card {
+  margin-top: 190px;
+  margin-bottom: 250px;
+}
+
 .contact-form {
-  margin-top: 140px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .div-contact-btn {
-  margin-bottom: 320px;
+  margin-bottom: 15px;
+  width: 220px;
+  display: flex;
+  
+  margin-left: 40%;
+ 
+ 
 }
 
 .card-launch-page {

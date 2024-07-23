@@ -92,7 +92,7 @@ function Signup() {
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control
                                     type="text"
-                                    placeholder="Enter name"
+                                    placeholder="Enter your name"
                                     name="name"
                                     value={form.name}
                                     onChange={handleChange} />
