@@ -185,3 +185,36 @@ export const luxuryCars = [
         images: [""]
     }
 ]
+
+export const economyCars = [
+    {
+        model: "VOLKSWAGEN ID 4"
+    },
+    {
+        model: "HYUNDAI IONIC 6"
+    },
+    {
+        model: "CHEVROLET BOLT"
+    },
+    {
+        model: "MINI COOPER ELECTRIC"
+    },
+    {
+        model: "KIA NIRO"
+    },
+    {
+        model: "FIAT 500e Inspi"
+    },
+    {
+        model: "FISKER OCEAN SPORT"
+    },
+    {
+        model: "POLESTAR 2"
+    },
+    {
+        model: "HONDA PROLOGUE"
+    },
+    {
+        model: "TOYOTA BZ4X SUV"
+    }
+]
