@@ -102,27 +102,28 @@ display: none;
 .contact-form-card {
   margin-top: 190px;
   margin-bottom: 250px;
+  width: 900px;
+  margin-left: 15%;
 }
 
 .contact-form {
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .div-contact-btn {
   margin-bottom: 15px;
   width: 220px;
   display: flex;
-  
-  margin-left: 40%;
- 
- 
+  margin-left: 35%;
 }
 
 .card-launch-page {
   margin-top: 100px;
   margin-bottom: 240px;
+  width: 600px;
+  margin-left: 23%;
 }
 
 .form-launch-page{
@@ -135,6 +136,8 @@ display: none;
 .card-signup-page{
   margin-top: 100px;
   margin-bottom: 170px;
+  width: 800px;
+  margin-left: 20%;
 }
 
 .form-signup-page {
@@ -144,7 +147,7 @@ display: none;
   margin-right: 20px;
 }
 
-.h2-signup-page{
+.h2-signup-page {
 
   font-family: "Monoton", sans-serif;
   font-weight: 500;
@@ -156,7 +159,7 @@ display: none;
   animation: eletric 5s infinite;
 }
 
-.h2-signin-page{
+.h2-signin-page {
   font-family: "Monoton", sans-serif;
   font-weight: 500;
   margin-top: 70px;
@@ -167,6 +170,16 @@ display: none;
   animation: eletric 5s infinite;
 }
 
-.nav-my-account{
+.nav-my-account {
   margin-right: 40px;
+}
+
+.btn-launch-page {
+  width: 140px;
+  margin-left: 35%;
+}
+
+.btn-signup-page{
+  width: 140px;
+  margin-left: 35%;
 }

@@ -95,6 +95,7 @@ function LaunchPage() {
                                 </Form.Group>
 
                                 <Button
+                                    className="btn-launch-page"
                                     variant="primary"
                                     type="submit"
                                     onClick={handleClick}

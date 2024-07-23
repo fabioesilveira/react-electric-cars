@@ -118,6 +118,7 @@ function Signup() {
                             </Form.Group>
 
                             <Button
+                                className="btn-signup-page"
                                 variant="primary"
                                 type="submit"
                                 onClick={handleClick}
