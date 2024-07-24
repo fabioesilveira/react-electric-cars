@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { logo } from '../data/data';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 
@@ -18,6 +18,8 @@ function Signup() {
         email: "",
         password: ""
     });
+
+    const navigate = useNavigate();
 
     function handleChange({ target }) {
 
@@ -50,7 +52,8 @@ function Signup() {
         try {
             const response = await axios.post("http://localhost:3000/users", form)
             console.log(response.data)
-            return alert(response.data.message)
+            alert(response.data.message)
+            navigate("/launchpage")
         } catch (error) {
             console.error("error to post: ", error)
         }
@@ -104,6 +107,7 @@ function Signup() {
                                     placeholder="Enter email"
                                     name="email"
                                     value={form.email}
+                                    autoComplete="off"
                                     onChange={handleChange} />
                             </Form.Group>
 

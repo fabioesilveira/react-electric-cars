@@ -3,8 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { logo } from '../data/data';
-import { NavLink } from 'react-router-dom';
-import Signin from './Signin';
+import { NavLink, useNavigate } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
@@ -17,6 +16,8 @@ function LaunchPage() {
         email: "",
         password: ""
     })
+
+    const navigate = useNavigate();
 
     function handleChange({ target }) {
 
@@ -35,9 +36,16 @@ function LaunchPage() {
         try {
             const response = await axios.post("http://localhost:3000/users/login", form)
             console.log(response.data)
-            return alert(response.data.message)
+            const localStorageUser = {
+                id:response.data.id,
+                name:response.data.name,
+                email:response.data.email
+            }
+            localStorage.setItem("localStorageUser", JSON.stringify(localStorageUser))
+            navigate("/")
         } catch (error) {
             console.error("error to post: ", error)
+            alert("this account does not exist, please enter a valid account")
         }
     }
 
@@ -71,7 +79,8 @@ function LaunchPage() {
 
                 <Container>
                 <h2 className="h2-signin-page">Welcome  to GoElectric, signin with your registered account.</h2>
-                    <Card className="card-launch-page">
+                    <div className="div-card-launchpage">
+                    <Card className="card-launch-page" >
                         <Container>
                             <Form className="form-launch-page">
                                 <Form.Group className="mb-3" >
@@ -105,6 +114,7 @@ function LaunchPage() {
                             </Form>
                         </Container>
                     </Card>
+                    </div>
                 </Container>
 
 

@@ -120,10 +120,17 @@ display: none;
 }
 
 .card-launch-page {
-  margin-top: 100px;
-  margin-bottom: 240px;
-  width: 600px;
-  margin-left: 23%;
+  width: 900px;
+  
+}
+
+.div-card-launchpage{
+  background-color: red;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-launch-page{
@@ -182,4 +189,16 @@ display: none;
 .btn-signup-page{
   width: 140px;
   margin-left: 35%;
+}
+
+@media screen and (max-width: 992px) {
+  .card-launch-page {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-launch-page {
+    width: 300px;
+  }
 }
