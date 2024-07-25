@@ -188,7 +188,9 @@ export const luxuryCars = [
 
 export const economyCars = [
     {
-        model: "VOLKSWAGEN ID 4"
+        model: "VOLKSWAGEN ID.4",
+        price: "$41,160",
+        range: "263 miles"
     },
     {
         model: "HYUNDAI IONIC 6"
