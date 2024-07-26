@@ -9,6 +9,7 @@ import Signup from './pages/Signup'
 import Contact from './components/Contact'
 import LuxuryCars from './pages/LuxuryCars'
 import LaunchPage from './pages/LaunchPage'
+import EconomyCars from './pages/EconomyCars'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/lucid" element={<Lucid />}/>
         <Route path="/rivian" element={<Rivian />}/>
         <Route path="/luxurycars" element={<LuxuryCars />}/>
+        <Route path="/economycars" element={<EconomyCars />}/>
         <Route path="/*" element={<NotFound />}/>
       </Routes>
 

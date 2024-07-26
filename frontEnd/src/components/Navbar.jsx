@@ -21,7 +21,7 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/lucid">LUCID</Nav.Link>
             <Nav.Link as={NavLink} to="/rivian"> RIVIAN</Nav.Link>
             <Nav.Link as={NavLink} to="/luxurycars">LUXURY CARS</Nav.Link>
-            <Nav.Link href="#pricing">ECONOMY CARS</Nav.Link>
+            <Nav.Link as={NavLink} to="/economycars">ECONOMY CARS</Nav.Link>
           </Nav>
 
        
