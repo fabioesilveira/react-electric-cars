@@ -125,8 +125,7 @@ display: none;
 }
 
 .div-card-launchpage{
-  background-color: red;
-  height: 800px;
+  height: 610px;
   display: flex;
   flex-direction: column;
   align-items: center;
