@@ -182,7 +182,7 @@ export const luxuryCars = [
         model: "Jaguar I-PACE",
         price: "$73,375", 
         range: "246 miles", 
-        images: [""]
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2019-jaguar-i-pace-389-1543866582.jpg?crop=0.891xw:0.818xh;0.0918xw,0.125xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2019-jaguar-i-pace-456-1543864228.jpg?crop=0.905xw:0.831xh;0.0459xw,0.118xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2019-jaguar-i-pace-447-1543864225.jpg?crop=0.896xw:0.824xh;0.0918xw,0.159xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2019-jaguar-i-pace-317-1543864222.jpg?crop=0.954xw:0.877xh;0.0170xw,0.0563xh&resize=980:*"]
     }
 ]
 
@@ -190,33 +190,62 @@ export const economyCars = [
     {
         model: "VOLKSWAGEN ID.4",
         price: "$41,160",
-        range: "263 miles"
+        range: "263 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-112-6667291f7a899.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-114-66672920f31ab.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-101-6667291a85697.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "HYUNDAI IONIC 6"
+        model: "HYUNDAI IONIC 6",
+        price: "$38,650", 
+        range: "270 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-397-649b49e5a1eac.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-976-649b49e723c0f.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-1029-649b49e88e7a7.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-1060-649b49e7ba190.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "CHEVROLET BOLT"
+        model: "CHEVROLET BOLT",
+        price: "$27,495",
+        range: "259 miles", 
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-101-1613168160.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-104-1613168160.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-105-1613168157.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-114-1613168163.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "MINI COOPER ELECTRIC"
+        model: "MINI COOPER ELECTRIC",
+        price: "$31,895",
+        range: "110 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-mini-cooper-electric-102-63ff83377949f.jpg?crop=0.865xw:0.793xh;0.0604xw,0.207xh&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-mini-cooper-electric-103-63ff89cc6bace.jpg?crop=1xw:0.9166666666666666xh;center,top&resize=980:*"]
     },
     {
-        model: "KIA NIRO"
+        model: "KIA NIRO EV",
+        price: "$40,975",
+        range: "253 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-suv-101-1665082544.jpeg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-6611-1665512115.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-6651-1665512115.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-7003-1665512119.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "FIAT 500e Inspi"
+        model: "FIAT 500e",
+        price: "$34,095",
+        range: " 141 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-103-6660a1cb7f7bb.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-108-6660a1cb7c8f9.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-127-6660a1d50d0aa.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-116-6660a1ce61cf4.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "FISKER OCEAN SPORT"
+        model: "FISKER OCEAN SPORT",
+        price: "$41,437",
+        range: "360 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-104-64c168aeedc67.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-113-64c168b7bb5dd.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-123-64c168bc62bf2.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-135-64c168c5937dc.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "POLESTAR 2"
+        model: "POLESTAR 2",
+        price: "$51,300",
+        range: "307 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-119-6667500951aac.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-118-66675009a4131.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-123-6667500f8229d.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-110-666750025f4c9.jpg?crop=1xw:1xh;center,top&resize=980:*"]
+
     },
     {
-        model: "HONDA PROLOGUE"
+        model: "HONDA PROLOGUE",
+        price: "$48,795",
+        range: "281 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-458-edit-667191deda274.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-465-edit-667191dfb2914.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-516-667191e675236.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-510-667191e58a486.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     },
     {
-        model: "TOYOTA BZ4X SUV"
+        model: "TOYOTA BZ4X SUV",
+        price: "$44,465",
+        range: "222 miles",
+        images: ["https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-103-1651597867.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-107-1651597884.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-108-1651597896.jpg?crop=1xw:1xh;center,top&resize=980:*", "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-109-1651597876.jpg?crop=1xw:1xh;center,top&resize=980:*"]
     }
 ]
