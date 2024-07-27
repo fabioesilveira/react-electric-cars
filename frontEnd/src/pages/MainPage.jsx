@@ -6,6 +6,7 @@ import Electric2 from '../../src/assets/images/eletric-2.png'
 import NavBar from "../components/Navbar";
 import '../App.css'
 import Footer from "../components/Footer";
+import Cars from '../components/Cars';
 
 function MainPage() {
     return (
@@ -13,6 +14,7 @@ function MainPage() {
            <NavBar />
            <h1 className="title-h1">Be smart and GoElectric!</h1>
             <Container>
+                <Cars />
                 <Row>
 
                     <Col >
