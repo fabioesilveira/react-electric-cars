@@ -1,22 +1,28 @@
 import { Button, Carousel } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
 import { useEffect, useState } from "react";
+import Spinner from 'react-bootstrap/Spinner';
 
 
-function ListCars({cars}) {
-    
-    const [myCars, setMyCars] = useState(cars)
-    useEffect(() => {
+function ListCars({ data }) {
 
-    }, [myCars])
-    console.log(myCars)
+    const [myCars, setMyCars] = useState(data)
+
     function handleClick(event, index) {
         event.preventDefault()
         const newCars = [...myCars]; //newCars = myCars
         newCars[index].show = !newCars[index].show
-        setMyCars (newCars)
+        setMyCars(newCars)
     }
-    
+
+    if (!myCars) {
+        return (
+            <Spinner animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+            </Spinner>
+        )
+    }
+
     return (
         <>
             {myCars.map((element, index) => (
@@ -24,7 +30,7 @@ function ListCars({cars}) {
                     <h2 className="div-h2-cars">{element.model}</h2>
                     <h4 className="div-h4-cars">PRICE {element.price} / RANGE {element.range}</h4>
                     <div>
-                       {myCars[index].show ? <YoutubeVideo video={element.srcVideo} /> : ""} 
+                        {myCars[index].show ? <YoutubeVideo video={element.srcVideo} /> : ""}
 
                     </div>
 
