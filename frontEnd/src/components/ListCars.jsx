@@ -15,37 +15,50 @@ function ListCars({ data }) {
         setMyCars(newCars)
     }
 
-    if (!myCars) {
-        return (
-            <Spinner animation="border" role="status">
-                <span className="visually-hidden">Loading...</span>
-            </Spinner>
-        )
-    }
-
     return (
         <>
             {myCars.map((element, index) => (
                 <div key={index}>
-                    <h2 className="div-h2-cars">{element.model}</h2>
+                    <h2 className="div-h2-cars">{element.car_name}</h2>
                     <h4 className="div-h4-cars">PRICE {element.price} / RANGE {element.range}</h4>
                     <div>
-                        {myCars[index].show ? <YoutubeVideo video={element.srcVideo} /> : ""}
+                        {myCars[index].show ? <YoutubeVideo video={element.video} /> : ""}
 
                     </div>
 
                     <Carousel className="img-cars-tesla">
-                        {element.images.map((e, i) => (
-                            <Carousel.Item key={i}>
-                                <img
-                                    className="d-block w-100 img-cars-tesla"
-                                    src={e}
-                                    alt="First slide"
-                                />
 
-                            </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-cars-tesla"
+                                src={element.image_1}
+                                alt="First slide"
+                            />
 
-                        ))}
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-cars-tesla"
+                                src={element.image_2}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-cars-tesla"
+                                src={element.image_3}
+                                alt="First slide"
+                            />
+
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-cars-tesla"
+                                src={element.image_4}
+                                alt="First slide"
+                            />
+
+                        </Carousel.Item>
 
                     </Carousel>
 
