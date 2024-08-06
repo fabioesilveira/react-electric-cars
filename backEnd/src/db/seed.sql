@@ -1,7 +1,10 @@
 INSERT INTO
     users (name, email, password)
-VALUES
-    ('Fabio', 'fabio@email.com', '123');
+VALUES (
+        'Fabio',
+        'fabio@email.com',
+        '123'
+    );
 
 INSERT INTO
     cars (
@@ -16,8 +19,7 @@ INSERT INTO
         video,
         is_show
     )
-VALUES
-    (
+VALUES (
         'MODEL 3-2024',
         'Tesla',
         49130.00,
@@ -90,7 +92,6 @@ VALUES
         FALSE
     );
 
-
 INSERT INTO
     cars (
         car_name,
@@ -104,8 +105,7 @@ INSERT INTO
         video,
         is_show
     )
-VALUES
-    (
+VALUES (
         'R1S 2025',
         'Rivian',
         77700.00,
@@ -167,8 +167,7 @@ INSERT INTO
         video,
         is_show
     )
-VALUES
-    (
+VALUES (
         'GENESIS GV60',
         'Luxury Cars',
         61900.00,
@@ -213,6 +212,192 @@ VALUES
         'https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-476-64b97378af76f.jpg?crop=1xw:1xh;center,top&resize=980:*',
         'https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-420-64b97379cc68c.jpg?crop=1xw:1xh;center,top&resize=980:*',
         'https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-453-64b9735710cd8.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    );
+
+INSERT INTO
+    cars (
+        car_name,
+        model,
+        price,
+        `range`,
+        paragraph,
+        image_1,
+        image_2,
+        image_3,
+        image_4,
+        video,
+        is_show
+    )
+VALUES (
+        'AIR 2024',
+        'Lucid',
+        79400.00,
+        '425 miles',
+        'Make no mistake, the Air is intended to be a luxury car, and its handsome interior is fitted with rich-looking materials and cutting-edge technology. Lucid is especially proud of the sedan\'s expansive passenger space, which is highlighted by a large back seat. The Air has the longest range of any electric vehicle currently on the market, according to EPA estimates.',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-117-64cd3bf322c9a.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-121-64cd3bf3e715b.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-101-64cd3beb350a6.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-lucid-air-sapphire-116-64cd3bf322621.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'GRAVITY 2025',
+        'Lucid',
+        130000.00,
+        '516 miles',
+        'Lucid is no stranger to luxury, and the Gravity builds on that reputation nicely with a spacious cabin that\'s decked out in fancy, stylish-looking materials. The Gravity SUV comes with dual electric motors and standard all-wheel drive; a rear-wheel-drive base model could join the lineup later on.',
+        'https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-102-655634dba544a.jpg?crop=1.00xw:0.842xh;0,0.0930xh&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-interior-111-6556352e3f4c6.jpg?crop=1.00xw:0.753xh;0,0.0991xh&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-107-655634dddf17a.jpg?crop=1.00xw:0.845xh;0,0.155xh&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2025-lucid-gravity-exterior-112-655634de77aa9.jpg?crop=1.00xw:0.753xh;0,0.247xh&resize=980:*',
+        NULL,
+        FALSE
+    );
+
+INSERT INTO
+    cars (
+        car_name,
+        model,
+        price,
+        `range`,
+        paragraph,
+        image_1,
+        image_2,
+        image_3,
+        image_4,
+        video,
+        is_show
+    )
+VALUES (
+        'VOLKSWAGEN ID.4',
+        'Volkswagen',
+        41160.00,
+        '263 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-112-6667291f7a899.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-114-66672920f31ab.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-volkswagen-id-4-101-6667291a85697.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        NULL,
+        FALSE
+    ),
+    (
+        'HYUNDAI IONIC 6',
+        'Hyundai',
+        38650.00,
+        '270 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-397-649b49e5a1eac.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-976-649b49e723c0f.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-1029-649b49e88e7a7.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-hyundai-ioniq6-se-lr-1060-649b49e7ba190.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'CHEVROLET BOLT',
+        'Chevrolet',
+        27495.00,
+        '259 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-101-1613168160.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-104-1613168160.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-105-1613168157.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2022-chevrolet-bolt-ev-114-1613168163.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'MINI COOPER ELECTRIC',
+        'Mini',
+        31895.00,
+        '110 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-mini-cooper-electric-102-63ff83377949f.jpg?crop=0.865xw:0.793xh;0.0604xw,0.207xh&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-mini-cooper-electric-103-63ff89cc6bace.jpg?crop=1xw:0.9166666666666666xh;center,top&resize=980:*',
+        NULL,
+        NULL,
+        NULL,
+        FALSE
+    ),
+    (
+        'KIA NIRO EV',
+        'Kia',
+        40975.00,
+        '253 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-suv-101-1665082544.jpeg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-6611-1665512115.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-6651-1665512115.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-kia-niro-ev-7003-1665512119.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'FIAT 500e',
+        'Fiat',
+        34095.00,
+        '141 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-103-6660a1cb7f7bb.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-108-6660a1cb7c8f9.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-127-6660a1d50d0aa.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-fiat-500e-116-6660a1ce61cf4.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'FISKER OCEAN SPORT',
+        'Fisker',
+        41437.00,
+        '360 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-104-64c168aeedc67.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-113-64c168b7bb5dd.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-123-64c168bc62bf2.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-fisker-ocean-135-64c168c5937dc.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'POLESTAR 2',
+        'Polestar',
+        51300.00,
+        '307 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-119-6667500951aac.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-118-66675009a4131.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-123-6667500f8229d.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-polestar-2-dual-motor-110-666750025f4c9.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'HONDA PROLOGUE',
+        'Honda',
+        48795.00,
+        '281 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-458-edit-667191deda274.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-465-edit-667191dfb2914.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-516-667191e675236.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2024-honda-prologue-510-667191e58a486.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        NULL,
+        FALSE
+    ),
+    (
+        'TOYOTA BZ4X SUV',
+        'Toyota',
+        44465.00,
+        '222 miles',
+        '',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-103-1651597867.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-107-1651597884.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-108-1651597896.jpg?crop=1xw:1xh;center,top&resize=980:*',
+        'https://hips.hearstapps.com/hmg-prod/images/2023-toyota-bz4x-limited-awd-109-1651597876.jpg?crop=1xw:1xh;center,top&resize=980:*',
         NULL,
         FALSE
     );
