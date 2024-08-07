@@ -1,10 +1,10 @@
-import { Container, Spinner } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
-import { luxuryCars } from "../data/data";
 import ListCars from "../components/ListCars";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import MySpinner from "../components/MySpinner";
 
 
 
@@ -29,9 +29,7 @@ function LuxuryCars() {
 
             <Container>
 
-                {cars ? <ListCars data={cars} /> : <Spinner animation="border" role="status">
-                    <span className="visually-hidden">Loading...</span>
-                </Spinner>}
+                {cars ? <ListCars data={cars} /> : <MySpinner />}
 
             </Container>
 

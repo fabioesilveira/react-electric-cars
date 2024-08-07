@@ -43,22 +43,24 @@ function ListCars({ data }) {
                                 alt="First slide"
                             />
                         </Carousel.Item>
-                        <Carousel.Item>
+                        
+                        {element.image_3 && <Carousel.Item>
                             <img
                                 className="d-block w-100 img-cars-tesla"
                                 src={element.image_3}
                                 alt="First slide"
                             />
 
-                        </Carousel.Item>
-                        <Carousel.Item>
+                        </Carousel.Item>}
+
+                        {element.image_4 && <Carousel.Item>
                             <img
                                 className="d-block w-100 img-cars-tesla"
                                 src={element.image_4}
                                 alt="First slide"
                             />
 
-                        </Carousel.Item>
+                        </Carousel.Item>}
 
                     </Carousel>
 
